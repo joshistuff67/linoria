@@ -2992,7 +2992,6 @@ function Library:CreateWindow(...)
         Size = UDim2.new(1, -16, 0, 25);
         Text = Config.Title or '';
         TextXAlignment = Enum.TextXAlignment.Center;
-        TextYAlignment = Enum.TextYAlignment.Center;
         ZIndex = 1;
         Parent = Inner;
     });
