@@ -3237,8 +3237,8 @@ function Library:CreateWindow(...)
 
             local Container = Library:Create('Frame', {
                 BackgroundTransparency = 1;
-                Position = UDim2.new(0, 8, 0, 30);
-                Size     = UDim2.new(1, -16, 1, -38);
+                Position = UDim2.new(0, 8, 0, 26);
+                Size     = UDim2.new(1, -16, 1, -34);
                 ZIndex = 1;
                 Parent = BoxInner;
             });
