@@ -3227,7 +3227,7 @@ function Library:CreateWindow(...)
 
             local GroupboxLabel = Library:CreateLabel({
                 Size = UDim2.new(1, 0, 0, 18);
-                Position = UDim2.new(0, 4, 0, 6);
+                Position = UDim2.new(0, 4, 0, 4);
                 TextSize = 14;
                 Text = Info.Name;
                 TextXAlignment = Enum.TextXAlignment.Center;
@@ -3237,8 +3237,8 @@ function Library:CreateWindow(...)
 
             local Container = Library:Create('Frame', {
                 BackgroundTransparency = 1;
-                Position = UDim2.new(0, 8, 0, 26);
-                Size     = UDim2.new(1, -16, 1, -34);
+                Position = UDim2.new(0, 8, 0, 24);
+                Size     = UDim2.new(1, -16, 1, -30);
                 ZIndex = 1;
                 Parent = BoxInner;
             });
